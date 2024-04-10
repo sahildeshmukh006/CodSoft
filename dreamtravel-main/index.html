@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dream Travel - путешествуй с нами по всему миру</title>
+
+  <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="body">
+  <div class="wrapper">
+    <header class="header" style="background-image: url('images/header-bg-2.jpg')">
+
+      <div class="header__top">
+        <div class="container">
+          <nav class="menu">
+            <a class="logo" href="#body">
+              <img class="logo__img" src="images/logo.svg" alt="логотип">
+            </a>
+
+            <button class="menu__button" type="button">
+              <span class="menu__btn"></span>
+              <span class="sr-only">открыть меню</span>
+            </button>
+
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__link animation" href="#about">
+                  <div class="rus_lang">
+                    <p>О проекте</p>
+                  </div>
+                  <div class="en_lang">
+                    <p>About the project</p>
+                  </div>
+                  </a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link animation" href="#select">
+                  <div class="rus_lang">
+                    <p>Отправиться в путешествие</p>
+                  </div>
+                  <div class="en_lang">
+                    <p>Go on a trip</p>
+                  </div>
+                  </a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link animation" href="#contacts">
+                  <div class="rus_lang">
+                    <p>Контакты</p>
+                  </div>
+                  <div class="en_lang">
+                    <p>Contacts</p>
+                  </div>
+                  </a>
+              </li>
+              <li class="menu__item">
+                  <a class="menu__link animation" href="tel:+78649874562">+7 (864) 987 45 62</a>
+                </li>
+            </ul>
+
+            <div class="lang_buttons">
+              <div class="lang_text">
+                <div class="rus_lang">
+                <p>RU</p>
+              </div>
+              <div class="en_lang">
+                <p>EN</p>
+              </div>
+              </div>
+              <a href="#" class="button rus_lang"></a>
+              <a href="#" class="button en_lang"></a>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="header__content">
+          <h1 class="header__title">
+            <div class="rus_lang">
+                <p>Путешествуй с нами по всему миру</p>
+              </div>
+              <div class="en_lang">
+                <p>Travel with us around the world</p>
+              </div>
+          </h1>
+          <a class="header__link animation btn" href="#select">
+            <div class="rus_lang">
+                <p>Выбрать тур</p>
+              </div>
+              <div class="en_lang">
+                <p>Choose a tour</p>
+              </div>
+            </a>
+        </div>
+      </div>
+
+    </header>
+
+    <main>
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="about__info">
+            <div class="about__inner">
+              <div class="about__info-box">
+                <h2 class="about__title title">
+                  <div class="rus_lang">
+                    <p>О проекте</p>
+                  </div>
+                  <div class="en_lang">
+                    <p>About the project</p>
+                  </div>
+                </h2>
+              <div class="about__text text">
+                <div class="rus_lang">
+                  <p>Принимая во внимание показатели успешности, современная методология разработки способствует повышению качества приоретизации разума над эмоциями. </p>
+                </div>
+                <div class="en_lang">
+                  <p>Taking into account the success indicators, the modern development methodology contributes to improving the quality of prioritization of reason over emotions.</p>
+                </div>
+                <div class="rus_lang">
+                  <p>Задача организации, в особенности же глубокий уровень погружения требует от нас анализа направлений прогрессивного развития. Таким образом, убеждённость некоторых оппонентов предполагает независимые способы реализации новых предложений.</p>
+                </div>
+                <div class="en_lang">
+                  <p>The task of the organization, especially the deep level of immersion, requires us to analyze the directions of progressive development. Thus, the conviction of some opponents suggests independent ways of implementing new proposals.</p>
+                </div>
+              </div>
+              <ul class="about__achievements">
+                <li class="about__text1">
+                  <span>195</span>
+                  <div class="rus_lang">
+                    <p>стран</p>
+                  </div>
+                  <div class="en_lang">
+                    <p>countries</p>
+                  </div>
+                </li>
+                <li class="about__text1">
+                  <span>750</span>
+                  <div class="rus_lang">
+                    <p>городов</p>
+                  </div>
+                  <div class="en_lang">
+                    <p>cities</p>
+                  </div>
+                </li>
+                <li class="about__text1">
+                  <span>2500</span>
+                  <div class="rus_lang">
+                    <p>отелей и гостиниц</p>
+                  </div>
+                  <div class="en_lang">
+                    <p>hotels and inns</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <img class="about__img" src="images/about.jpg" alt="фотография красивого озера в горах the photo of lake in mountains">
+          </div>
+        </div>
+          <div class="about__video">
+            <a class="reviews__video" data-fancybox style="background-image: url('images/video-bg.jpg')"
+              href="https://youtu.be/U5Bf7AF-3Yk" data-width="1000" data-height="1000">
+              <span class="sr-only">прослушать видео о проекте listen to a video about the project</span>
+            </a>
+          </div>
+          
+        </div>
+      </section>
+
+      <section class="tours section">
+        <div class="container-slider">
+          <div class="tours-slider__inner">
+            
+            <div class="tours-slider__item tour">
+              <div class="tour__inner">
+              <div class="tour__info-box">
+                <h4 class="subtitle">
+                  <div class="rus_lang">
+                    <p>ПОПУЛЯРНЫЕ ТУРЫ</p>
+                  </div>
+                  <div class="en_lang">
+                    <p>POPULAR TOURS</p>
+                  </div>
+                </h4>
+                <h2 class="tour__title title">
+                  <div class="rus_lang">
+                    <p>Сказочный Рим</p>
+                  </div>
+                  <div class="en_lang">
+                    <p>Fabulous Rome</p>
+                  </div>
+                </h2>
+              <div class="tour__text text">
+                <div class="rus_lang">
+                  <p>Банальные, но неопровержимые выводы, а также ключевые особенности структуры проекта представляют собой не что иное, как квинтэссенцию победы маркетинга над разумом и должны быть ограничены исключительно образом мышления.</p>
+                </div>
+                <div class="en_lang">
+                  <p>Banal, but irrefutable conclusions, as well as key features of the project structure, represent nothing more than the quintessence of marketing's victory over reason and should be limited exclusively to the way of thinking.</p>
+                </div>
+              </div>
+              </div>
+              <img class="tour__img" src="images/tours/1.jpg" alt="фотография сказочного рима photo of fairy tale rome">
+              </div>
+            </div>
+
+            <div class="tours-slider__item tour">
+              <div class="tour__inner">
+              <div class="tour__info-box">
+                <h4 class="subtitle">
+                  <div class="rus_lang">
+                    <p>ПОПУЛЯРНЫЕ ТУРЫ</p>
+                  </div>
+                  <div class="en_lang">
+                    <p>POPULAR TOURS</p>
+                  </div>
+                </h4>
+                <h2 class="tour__title title">
+                  <div class="rus_lang">
+                    <p>Сказочный Рим</p>
+                  </div>
+                  <div class="en_lang">
+                    <p>Fabulous Rome</p>
+                  </div>
+                </h2>
+              <div class="tour__text text">
+                <div class="rus_lang">
+                  <p>Банальные, но неопровержимые выводы, а также ключевые особенности структуры проекта представляют собой не что иное, как квинтэссенцию победы маркетинга над разумом и должны быть ограничены исключительно образом мышления.</p>
+                </div>
+                <div class="en_lang">
+                  <p>Banal, but irrefutable conclusions, as well as key features of the project structure, represent nothing more than the quintessence of marketing's victory over reason and should be limited exclusively to the way of thinking.</p>
+                </div>
+              </div>
+              </div>
+              <img class="tour__img" src="images/tours/1.jpg" alt="фотография сказочного рима photo of fairy tale rome">
+              </div>
+            </div>
+
+            <div class="tours-slider__item tour">
+              <div class="tour__inner">
+              <div class="tour__info-box">
+                <h4 class="subtitle">
+                  <div class="rus_lang">
+                    <p>ПОПУЛЯРНЫЕ ТУРЫ</p>
+                  </div>
+                  <div class="en_lang">
+                    <p>POPULAR TOURS</p>
+                  </div>
+                </h4>
+                <h2 class="tour__title title">
+                  <div class="rus_lang">
+                    <p>Сказочный Рим</p>
+                  </div>
+                  <div class="en_lang">
+                    <p>Fabulous Rome</p>
+                  </div>
+                </h2>
+              <div class="tour__text text">
+                <div class="rus_lang">
+                  <p>Банальные, но неопровержимые выводы, а также ключевые особенности структуры проекта представляют собой не что иное, как квинтэссенцию победы маркетинга над разумом и должны быть ограничены исключительно образом мышления.</p>
+                </div>
+                <div class="en_lang">
+                  <p>Banal, but irrefutable conclusions, as well as key features of the project structure, represent nothing more than the quintessence of marketing's victory over reason and should be limited exclusively to the way of thinking.</p>
+                </div>
+              </div>
+              </div>
+              <img class="tour__img" src="images/tours/1.jpg" alt="фотография сказочного рима photo of fairy tale rome">
+              </div>
+            </div>
+
+            <div class="tours-slider__item tour">
+              <div class="tour__inner">
+              <div class="tour__info-box">
+                <h4 class="subtitle">
+                  <div class="rus_lang">
+                    <p>ПОПУЛЯРНЫЕ ТУРЫ</p>
+                  </div>
+                  <div class="en_lang">
+                    <p>POPULAR TOURS</p>
+                  </div>
+                </h4>
+                <h2 class="tour__title title">
+                  <div class="rus_lang">
+                    <p>Сказочный Рим</p>
+                  </div>
+                  <div class="en_lang">
+                    <p>Fabulous Rome</p>
+                  </div>
+                </h2>
+              <div class="tour__text text">
+                <div class="rus_lang">
+                  <p>Банальные, но неопровержимые выводы, а также ключевые особенности структуры проекта представляют собой не что иное, как квинтэссенцию победы маркетинга над разумом и должны быть ограничены исключительно образом мышления.</p>
+                </div>
+                <div class="en_lang">
+                  <p>Banal, but irrefutable conclusions, as well as key features of the project structure, represent nothing more than the quintessence of marketing's victory over reason and should be limited exclusively to the way of thinking.</p>
+                </div>
+              </div>
+              </div>
+              <img class="tour__img" src="images/tours/1.jpg" alt="фотография сказочного рима photo of fairy tale rome">
+              </div>
+            </div>
+
+            <div class="tours-slider__item tour">
+              <div class="tour__inner">
+              <div class="tour__info-box">
+                <h4 class="subtitle">
+                  <div class="rus_lang">
+                    <p>ПОПУЛЯРНЫЕ ТУРЫ</p>
+                  </div>
+                  <div class="en_lang">
+                    <p>POPULAR TOURS</p>
+                  </div>
+                </h4>
+                <h2 class="tour__title title">
+                  <div class="rus_lang">
+                    <p>Сказочный Рим</p>
+                  </div>
+                  <div class="en_lang">
+                    <p>Fabulous Rome</p>
+                  </div>
+                </h2>
+              <div class="tour__text text">
+                <div class="rus_lang">
+                  <p>Банальные, но неопровержимые выводы, а также ключевые особенности структуры проекта представляют собой не что иное, как квинтэссенцию победы маркетинга над разумом и должны быть ограничены исключительно образом мышления.</p>
+                </div>
+                <div class="en_lang">
+                  <p>Banal, but irrefutable conclusions, as well as key features of the project structure, represent nothing more than the quintessence of marketing's victory over reason and should be limited exclusively to the way of thinking.</p>
+                </div>
+              </div>
+              </div>
+              <img class="tour__img" src="images/tours/1.jpg" alt="фотография сказочного рима photo of fairy tale rome">
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="private grey">
+        <div class="container">
+          <h2 class="private__title title">
+            <div class="rus_lang">
+              <p>Мы создадим для вас индивидуальную программу путешествия</p>
+            </div>
+            <div class="en_lang">
+              <p>We will create an individual travel program for you</p>
+            </div>
+          </h2>
+          <div class="private__text text">
+            <div class="rus_lang">
+              <p>В рамках спецификации современных стандартов, стремящиеся вытеснить традиционное производство, нанотехнологии и по сей день остаются уделом либералов, которые жаждут быть объективно рассмотрены соответствующими инстанциями.
+              </p>
+            </div>
+            <div class="en_lang">
+              <p>Within the framework of the specification of modern standards, nanotechnology, which seeks to displace traditional production, remains the lot of liberals to this day, who are eager to be objectively considered by the relevant authorities. </p>
+            </div>
+            <div class="rus_lang">
+              <p>Равным образом, семантический разбор внешних противодействий, в своём классическом представлении, допускает внедрение поставленных обществом задач.</p>
+            </div>
+            <div class="en_lang">
+              <p>Similarly, semantic analysis of external counteractions, in its classical view, allows the introduction of tasks set by society.</p>
+            </div>
+          </div>
+          <a class="private__link btn-1" href="#select">
+            <div class="rus_lang item">
+              <p>Выбрать тур</p>
+            </div>
+            <div class="en_lang item">
+              <p>Choose a tour</p>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      
+      <section class="select section" id="select">
+        <div class="container">
+          <div class="select__title-box">
+            <h2 class="select__title title">
+              <div class="rus_lang">
+                <p>Выберите тур для себя</p>
+               </div>
+              <div class="en_lang">
+                <p>Choose a tour for yourself</p>
+              </div>
+            </h2>
+            <h4 class="subtitle">
+              <div class="rus_lang">
+                <p>ПОСМОТРЕТЬ ВСЕ</p>
+              </div>
+              <div class="en_lang">
+                <p>VIEW ALL</p>
+              </div>
+            </h4>
+          </div>
+
+          <div class="select-slider__inner">
+            
+            <div class="select-slider__item">
+              <img class="select__img" src="images/select/1.jpg" alt="фотография норвежских фьордов photo of norwegian fjords">
+              <h3 class="select__item-title">
+                <div class="rus_lang">
+                  <p>Норвегия для тебя</p>
+                </div>
+                <div class="en_lang">
+                  <p>Norway for you</p>
+                </div>
+              </h3>
+              <div class="select__text text">
+                <div class="rus_lang">
+                  <p>Однозначно, тщательные исследования конкурентов формируют глобальную экономическую сеть и при этом —  своевременно верифицированы.</p>
+                </div>
+                <div class="en_lang">
+                  <p>Clearly, thorough research of competitors forms a global economic network and at the same time is verified in a timely manner.</p>
+                </div>
+              </div>
+              <a class="select__link btn-1" href="#">
+                <div class="rus_lang item">
+                  <p>Узнать больше</p>
+                </div>
+                <div class="en_lang item">
+                  <p>View more</p>
+                </div>
+              </a>
+            </div>
+            
+            <div class="select-slider__item">
+              <img class="select__img" src="images/select/2.jpg" alt="фотография парижской улицы photo of parisian avenu">
+              <h3 class="select__item-title">
+                <div class="rus_lang">
+                  <p>Парижские каникулы</p>
+                </div>
+                <div class="en_lang">
+                  <p>Paris holidays</p>
+                </div>
+              </h3>
+              <div class="select__text text">
+                <div class="rus_lang">
+                  <p>А ещё элементы политического процесса ассоциативно распределены по отраслям.</p>
+                </div>
+                <div class="en_lang">
+                  <p>And the elements of the political process are associatively distributed by industry.</p>
+                </div>
+              </div>
+              <a class="select__link btn-1" href="#">
+                <div class="rus_lang item">
+                  <p>Узнать больше</p>
+                </div>
+                <div class="en_lang item">
+                  <p>View more</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="select-slider__item">
+              <img class="select__img" src="images/select/1.jpg" alt="фотография норвежских фьордов photo of norwegian fjords">
+              <h3 class="select__item-title">
+                <div class="rus_lang">
+                  <p>Норвегия для тебя</p>
+                </div>
+                <div class="en_lang">
+                  <p>Norway for you</p>
+                </div>
+              </h3>
+              <div class="select__text text">
+                <div class="rus_lang">
+                  <p>Однозначно, тщательные исследования конкурентов формируют глобальную экономическую сеть и при этом —  своевременно верифицированы.</p>
+                </div>
+                <div class="en_lang">
+                  <p>Clearly, thorough research of competitors forms a global economic network and at the same time is verified in a timely manner.</p>
+                </div>
+              </div>
+              <a class="select__link btn-1" href="#">
+                <div class="rus_lang item">
+                  <p>Узнать больше</p>
+                </div>
+                <div class="en_lang item">
+                  <p>View more</p>
+                </div>
+              </a>
+            </div>
+            
+            <div class="select-slider__item">
+              <img class="select__img" src="images/select/2.jpg" alt="фотография парижской улицы photo of parisian avenu">
+              <h3 class="select__item-title">
+                <div class="rus_lang">
+                  <p>Парижские каникулы</p>
+                </div>
+                <div class="en_lang">
+                  <p>Paris holidays</p>
+                </div>
+              </h3>
+              <div class="select__text text">
+                <div class="rus_lang">
+                  <p>А ещё элементы политического процесса ассоциативно распределены по отраслям.</p>
+                </div>
+                <div class="en_lang">
+                  <p>And the elements of the political process are associatively distributed by industry.</p>
+                </div>
+              </div>
+              <a class="select__link btn-1" href="#">
+                <div class="rus_lang item">
+                  <p>Узнать больше</p>
+                </div>
+                <div class="en_lang item">
+                  <p>View more</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="select-slider__item">
+              <img class="select__img" src="images/select/1.jpg" alt="фотография норвежских фьордов photo of norwegian fjords">
+              <h3 class="select__item-title">
+                <div class="rus_lang">
+                  <p>Норвегия для тебя</p>
+                </div>
+                <div class="en_lang">
+                  <p>Norway for you</p>
+                </div>
+              </h3>
+              <div class="select__text text">
+                <div class="rus_lang">
+                  <p>Однозначно, тщательные исследования конкурентов формируют глобальную экономическую сеть и при этом —  своевременно верифицированы.</p>
+                </div>
+                <div class="en_lang">
+                  <p>Clearly, thorough research of competitors forms a global economic network and at the same time is verified in a timely manner.</p>
+                </div>
+              </div>
+              <a class="select__link btn-1" href="#">
+                <div class="rus_lang item">
+                  <p>Узнать больше</p>
+                </div>
+                <div class="en_lang item">
+                  <p>View more</p>
+                </div>
+              </a>
+            </div>
+            
+            <div class="select-slider__item">
+              <img class="select__img" src="images/select/2.jpg" alt="фотография парижской улицы photo of parisian avenu">
+              <h3 class="select__item-title">
+                <div class="rus_lang">
+                  <p>Парижские каникулы</p>
+                </div>
+                <div class="en_lang">
+                  <p>Paris holidays</p>
+                </div>
+              </h3>
+              <div class="select__text text">
+                <div class="rus_lang">
+                  <p>А ещё элементы политического процесса ассоциативно распределены по отраслям.</p>
+                </div>
+                <div class="en_lang">
+                  <p>And the elements of the political process are associatively distributed by industry.</p>
+                </div>
+              </div>
+              <a class="select__link btn-1" href="#">
+                <div class="rus_lang item">
+                  <p>Узнать больше</p>
+                </div>
+                <div class="en_lang item">
+                  <p>View more</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="select-slider__item">
+              <img class="select__img" src="images/select/1.jpg" alt="фотография норвежских фьордов photo of norwegian fjords">
+              <h3 class="select__item-title">
+                <div class="rus_lang">
+                  <p>Норвегия для тебя</p>
+                </div>
+                <div class="en_lang">
+                  <p>Norway for you</p>
+                </div>
+              </h3>
+              <div class="select__text text">
+                <div class="rus_lang">
+                  <p>Однозначно, тщательные исследования конкурентов формируют глобальную экономическую сеть и при этом —  своевременно верифицированы.</p>
+                </div>
+                <div class="en_lang">
+                  <p>Clearly, thorough research of competitors forms a global economic network and at the same time is verified in a timely manner.</p>
+                </div>
+              </div>
+              <a class="select__link btn-1" href="#">
+                <div class="rus_lang item">
+                  <p>Узнать больше</p>
+                </div>
+                <div class="en_lang item">
+                  <p>View more</p>
+                </div>
+              </a>
+            </div>
+            
+            <div class="select-slider__item">
+              <img class="select__img" src="images/select/2.jpg" alt="фотография парижской улицы photo of parisian avenu">
+              <h3 class="select__item-title">
+                <div class="rus_lang">
+                  <p>Парижские каникулы</p>
+                </div>
+                <div class="en_lang">
+                  <p>Paris holidays</p>
+                </div>
+              </h3>
+              <div class="select__text text">
+                <div class="rus_lang">
+                  <p>А ещё элементы политического процесса ассоциативно распределены по отраслям.</p>
+                </div>
+                <div class="en_lang">
+                  <p>And the elements of the political process are associatively distributed by industry.</p>
+                </div>
+              </div>
+              <a class="select__link btn-1" href="#">
+                <div class="rus_lang item">
+                  <p>Узнать больше</p>
+                </div>
+                <div class="en_lang item">
+                  <p>View more</p>
+                </div>
+              </a>
+            </div>
+          
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery section">
+        <div class="container">
+          <div class="gallery__title-box">
+            <h2 class="gallery__title title">
+              <div class="rus_lang">
+                <p>Путешествия с нами — лучшие воспоминания</p>
+               </div>
+              <div class="en_lang">
+                <p>Traveling with us — the best memories</p>
+              </div>
+            </h2>
+            <h4 class="gallery__subtitle">
+              <div class="rus_lang">
+                <p>Именно поэтому нас стоит выбрать</p>
+              </div>
+              <div class="en_lang">
+                <p>That's why you should choose us</p>
+              </div>
+            </h4>
+          </div>
+          <div class="gallery-slider__inner">
+
+            <div class="gallery-slider__item">
+              <img class="gallery__img" src="images/gallery/1.jpg" alt="фотография девушки с веслом в лодке на озере photo of a girl with a paddle in a boat on the lake">
+            </div>
+            <div class="gallery-slider__item">
+              <img class="gallery__img" src="images/gallery/2.jpg" alt="фотография собора с куполами photograph of the cathedral with domes">
+            </div>
+            <div class="gallery-slider__item">
+              <img class="gallery__img" src="images/gallery/3.jpg" alt="фотография реки среди пальм photo of a river among palm trees">
+            </div>
+            <div class="gallery-slider__item">
+              <img class="gallery__img" src="images/gallery/4.jpg" alt="фотография древнего колизея photo of the ancient colosseum">
+            </div>
+            <div class="gallery-slider__item">
+              <img class="gallery__img" src="images/gallery/1.jpg" alt="фотография девушки с веслом в лодке на озере photo of a girl with a paddle in a boat on the lake">
+            </div>
+            <div class="gallery-slider__item">
+              <img class="gallery__img" src="images/gallery/2.jpg" alt="фотография собора с куполами photograph of the cathedral with domes">
+            </div>
+            <div class="gallery-slider__item">
+              <img class="gallery__img" src="images/gallery/3.jpg" alt="фотография реки среди пальм photo of a river among palm trees">
+            </div>
+            <div class="gallery-slider__item">
+              <img class="gallery__img" src="images/gallery/4.jpg" alt="фотография древнего колизея photo of the ancient colosseum">
+            </div>
+            <div class="gallery-slider__item">
+              <img class="gallery__img" src="images/gallery/1.jpg" alt="фотография девушки с веслом в лодке на озере photo of a girl with a paddle in a boat on the lake">
+            </div>
+            <div class="gallery-slider__item">
+              <img class="gallery__img" src="images/gallery/2.jpg" alt="фотография собора с куполами photograph of the cathedral with domes">
+            </div>
+            <div class="gallery-slider__item">
+              <img class="gallery__img" src="images/gallery/3.jpg" alt="фотография реки среди пальм photo of a river among palm trees">
+            </div>
+            <div class="gallery-slider__item">
+              <img class="gallery__img" src="images/gallery/4.jpg" alt="фотография древнего колизея photo of the ancient colosseum">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="location section">
+        <div class="container">
+          <div class="location__title-box">
+            <h2 class="location__title title">
+              <div class="rus_lang">
+                <p>Где мы находимся</p>
+               </div>
+              <div class="en_lang">
+                <p>Where are we located</p>
+              </div>
+            </h2>
+            <h4 class="location__subtitle">
+              <div class="rus_lang">
+                <p>Улица Пушкина  д. 45<br>8 минут от станции Внуково» </p>
+              </div>
+              <div class="en_lang">
+                <p>45 Pushkin Street<br>8 minutes from Vnukovo station</p>
+              </div>
+            </h4>
+          </div>
+        </div>
+        <div class="location__map">
+          <a class="location__link" href="https://goo.gl/maps/hvfyCG354z9Du5mK6" target="blank">
+            <img class="location__img" src="images/map.jpg" alt="карта map">
+          </a>
+        </div>
+      </section>
+
+      <section class="partners section">
+        <div class="container">
+          <h2 class="partners__title title">
+              <div class="rus_lang">
+                <p>Наши партнёры</p>
+               </div>
+              <div class="en_lang">
+                <p>Our partners</p>
+              </div>
+          </h2>
+          <ul class="partners__list">
+            <li class="partners__item">
+              <img class="partners__img" src="images/partners/1.jpg" alt="логотип партнера partner logo">
+            </li>
+            <li class="partners__item">
+              <img class="partners__img" src="images/partners/2.jpg" alt="логотип партнера partner logo">
+            </li>
+            <li class="partners__item">
+              <img class="partners__img" src="images/partners/3.jpg" alt="логотип партнера partner logo">
+            </li>
+            <li class="partners__item">
+              <img class="partners__img" src="images/partners/4.jpg" alt="логотип партнера partner logo">
+            </li>
+            <li class="partners__item">
+              <img class="partners__img" src="images/partners/5.jpg" alt="логотип партнера partner logo">
+            </li>
+            <li class="partners__item">
+              <img class="partners__img" src="images/partners/6.jpg" alt="логотип партнера partner logo">
+            </li>
+            <li class="partners__item">
+              <img class="partners__img" src="images/partners/7.jpg" alt="логотип партнера partner logo">
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="contacts grey" id="contacts">
+        <div class="container">
+          <div class="contacts__inner">
+            <div class="contacts__form">
+            <form class="form" action="#">
+              <h2 class="form__title title">
+              <div class="rus_lang">
+                <p>Запросить звонок</p>
+               </div>
+              <div class="en_lang">
+                <p>Request a call</p>
+              </div>
+              </h2>
+              <div class="form__row">
+                <div class="form__inner">
+                  <label class="form__field" for="name"></label>
+                  
+                  <input class="form__input grey" type="text" id="name" name="name" placeholder="Имя * / Name *" required>
+                </div>
+                <div class="form__inner">
+                  <label class="form__field" for="tel"></label>
+                  <input class="form__input grey" type="tel" id="tel" name="tel" placeholder="Номер телефона * / Phone number*" required>
+                </div>
+              </div>
+              <label class="form__check" for="check">
+                <input class="form__input-check grey" type="checkbox">
+                <div class="rus_lang">
+                  <p>Соглашаюсь на обработку персональных данных</p>
+                </div>
+                <div class="en_lang">
+                  <p>I agree to the processing of personal data</p>
+                </div>
+              </label>
+
+              <button class="btn submit" type="submit">
+                <div class="rus_lang">
+                  <p>Отправить</p>
+                </div>
+                <div class="en_lang">
+                  <p>Send</p>
+                </div>
+              </button>
+
+            </form>
+          </div>
+          
+          <div class="contacts__info">
+            <address class="contacts__info">
+              <h2 class="contacts__title title">
+                <div class="rus_lang">
+                  <p>Контакты</p>
+                 </div>
+                <div class="en_lang">
+                  <p>Contacts</p>
+                </div>
+              </h2>
+              
+              <ul class="contacts__list">
+                <li class="contacts__item contacts__item--tel">
+                  <a class="contacts__link" href="tel:+78649874562">+7 (864) 987 45 62</a>
+                </li>
+                <li class="contacts__item contacts__item--map">
+                  <a class="contacts__link" href="https://goo.gl/maps/hvfyCG354z9Du5mK6" target="blank">
+                  г. Москва, ул. Пушкина,  д. 45
+                  <span class="contacts__time">9:00 - 20:00</span>
+                  </a>
+                </li>
+                <li class="contacts__item">
+                  <a class="contacts__link" href="mailto:support@dreamtravel.com">support@dreamtravel.com</a>
+                </li>
+              </ul>
+              
+            </address>
+
+          </div>
+          </div>
+          
+        </div>
+      </section>
+
+    </main>
+
+      <footer class="footer grey">
+        <div class="container">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a class="footer__link" href="#">
+                <div class="rus_lang">
+                  <p>Dream Travel © 2022</p>
+                </div>
+                <div class="en_lang">
+                  <p>Dream Travel © 2022</p>
+                </div>
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">
+                <div class="rus_lang">
+                  <p>Политика конфиденциальности</p>
+                </div>
+                <div class="en_lang">
+                  <p>Privacy Terms</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
